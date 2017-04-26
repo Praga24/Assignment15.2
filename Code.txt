@@ -16,3 +16,6 @@ sqoop job --exec jobincremental
 
 --Listing HDFS
 hadoop fs -ls
+
+--Viewing the file
+hadoop fs -cat /user/cloudera/STUDENT/part-m-00000
